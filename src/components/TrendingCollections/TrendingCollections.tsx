@@ -1,5 +1,5 @@
 import { useQuery } from '@apollo/client';
-import { WalletConnectionProps } from '../../WalletConnectionProps';
+import { WalletConnectionProps } from '../WalletConnection/WalletConnectionProps';
 import { QUERY_TRENDING_COLLECTIONS } from './query';
 
 /**

@@ -1,4 +1,4 @@
-import { WalletConnectionProps } from '../../WalletConnectionProps';
+import { WalletConnectionProps } from './WalletConnectionProps';
 
 /**
  * Component to handle ETH wallet connection/disconnection
