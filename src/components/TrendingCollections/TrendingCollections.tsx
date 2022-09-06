@@ -11,7 +11,7 @@ export const TrendingCollections: React.FC<WalletConnectionProps> = ({walletConn
   /**
    * Calls the get trending collections query
    */
-  const { loading, error, data } = useQuery<any>( // TODO: add error handling to this. Give it a specific return type
+  const { data } = useQuery<any>( // TODO: add error handling to this. Give it a specific return type
     QUERY_TRENDING_COLLECTIONS,
   );
 
